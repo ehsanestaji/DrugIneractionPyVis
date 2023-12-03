@@ -8,7 +8,6 @@ import random
 import itertools
 
 # Function to load data
-@st.cache_data
 def load_data():
     df = pd.read_csv('Drug-Drug-Interaction.csv')
     df.dropna(inplace=True)
