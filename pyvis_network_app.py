@@ -43,6 +43,7 @@ df_interact = load_data()
 
 # Layout
 st.title('Drug-Drug Interaction Network Dashboard')
+st.caption("Developed by Ehsan Estaji")
 st.markdown("Explore the interactions between different drugs and network properties.")
 
 # Sidebar for drug selection
